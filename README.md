@@ -1,20 +1,17 @@
 ## Noah
 
-I run CNC machines and write the software around them — mostly Rust, mostly on Linux. Day job is rapid prototyping on Tormach mills; off-hours it's tooling I actually use.
+Machinist by day (Tormach mills, rapid prototyping). Off the clock I work on two things: Linux/terminal dev tooling, and data-science projects.
 
-### G-code tooling
-The mill following me into my editor.
-- **[gcode.nvim](https://github.com/noahlyk/gcode.nvim)** — semantic G-code highlighting and inline docs for Neovim; colors chosen by *meaning*, so a rapid traverse never looks like a cutting move. Built for LinuxCNC and Tormach.
-- **[tree-sitter-gcode](https://github.com/noahlyk/tree-sitter-gcode)** — a G-code grammar for tree-sitter *(a fork I maintain)*.
-
-### Rust tools, packaged on the AUR
-- **[keymux](https://github.com/noahlyk/keymux)** — QMK-style keyboard middleware for Linux: mod-tap, custom layers, adaptive timing, SOCD for FPS games.
+### Terminal & Neovim
+- **[keymux](https://github.com/noahlyk/keymux)** — QMK-style keyboard middleware for Linux: mod-tap, custom layers, adaptive timing, SOCD.
 - **[tmux-leap](https://github.com/noahlyk/tmux-leap)** — create and fzf-jump between tmux sessions.
-- **[crosshair-maker](https://github.com/noahlyk/crosshair-maker)** — crosshair overlay builder with live SVG preview.
-- **[reaction-time-test](https://github.com/noahlyk/reaction-time-test)** — Human Benchmark, in your terminal.
+- **[gcode.nvim](https://github.com/noahlyk/gcode.nvim)** — semantic G-code highlighting and inline docs for Neovim; built for LinuxCNC and Tormach.
+- **[tree-sitter-gcode](https://github.com/noahlyk/tree-sitter-gcode)** — G-code grammar for tree-sitter (fork I maintain).
+- **[reaction-time-test](https://github.com/noahlyk/reaction-time-test)** — terminal reaction-time benchmark.
+- **[crosshair-maker](https://github.com/noahlyk/crosshair-maker)** — crosshair overlay builder with SVG preview.
 
-### Currently building
-**majorpicks** — a sports/esports match-prediction stack: Rust services, a Python ML pipeline, and a Next.js frontend (with a WS2812 LED strip that shows live win probability on my desk).
+### Data science
+- **majorpicks** — sports/esports match-prediction stack: a Python ML pipeline (feature engineering, gradient-boosted and neural models, probability calibration) behind Rust services and a Next.js frontend. Live win probability also drives a WS2812 LED strip.
 
 ---
-Rust · Python · TypeScript · Lua · Linux · Neovim
+Rust · Python · PyTorch · TypeScript · Lua · Linux · Neovim
