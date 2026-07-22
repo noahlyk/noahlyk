@@ -1,5 +1,6 @@
 Terminal · Neovim · data science
 
+- [.dotfiles](https://github.com/noahlyk/.dotfiles) — years of terminal-focused Linux/Neovim workflow
 - [keymux](https://github.com/noahlyk/keymux) — Linux keyboard middleware (mod-tap, layers, SOCD)
 - [tmux-leap](https://github.com/noahlyk/tmux-leap) — fzf tmux session switcher
 - [gcode.nvim](https://github.com/noahlyk/gcode.nvim) — G-code highlighting + docs for Neovim
